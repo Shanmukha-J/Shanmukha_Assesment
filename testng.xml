@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name ="Test">
+  <groups>
+  <run>
+    <exclude  name="Hi" />    <!-- include will run only with name which as mentioned -->
+    							<!-- exclude will run only with excluding name which as mentioned -->
+  </run>
+  </groups>
+  
+    <classes>
+    <class name= "testng.Annotations2" />
+    </classes>
+  </test> <!-- Testng -->
+</suite> <!-- Suite -->
